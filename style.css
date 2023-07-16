@@ -9,7 +9,7 @@
 .btn-primary {
     border-radius: 8px;
     background: #FF900E;
-    padding: 20px 50px;
+    padding: 20px 25px;
     color: #fff;
     font-size: 1.25rem;
     font-weight: 600;
@@ -69,8 +69,38 @@ nav li a {
 
 .banner-description {
     color: #727272;
-    font-size: 1rem;
+    /* font-size: 1rem;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 26px; */
 
+}
+
+.banner img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+
+/* responsive style  */
+/* mobaile device responsive */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 10px;
+        
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+/* tab device responstive */
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    nav{
+        flex-direction: column;
+    } 
+    header{
+        padding: 50px;
+        
+    }   
 }
